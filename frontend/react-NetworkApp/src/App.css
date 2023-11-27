@@ -1,0 +1,56 @@
+:root{
+    --mainOpacity: rgba(0, 0, 0, 0.55);
+}
+
+.header {
+    background-image: url("./Images/PublicImages/Head1.jpeg");
+    /* opacity: var(--mainOpacity); */
+    height: 47em !important; 
+    background-size: cover;  
+    background-position: center; 
+}
+
+.dark-overlay {
+    background-color: rgba(0, 0, 0, 0.35);
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+  }
+
+.main-color {
+background-color: #33ced6 ;
+}
+
+.col-image-left {
+    background-image: url("./Images/PublicImages/Head2.jpeg");
+    height: 25em !important;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.col-image-right {
+    background-image: url("./Images/PublicImages/image-1.jpg");
+    height: 25em !important;
+}
+
+.lost-image {
+    background-image: url("./Images/PublicImages/image-3.jpg");
+    height: 25em !important;
+    width: "720"
+}
+
+.homepage-carousel-title {
+    display: flex !important;
+    justify-content: center !important;
+    align-items: center !important;
+  }
+
+
+
+.inactiveLink {
+    pointer-events: none;
+    cursor: default;
+ }
